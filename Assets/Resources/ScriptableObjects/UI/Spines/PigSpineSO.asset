@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78353c0411e0d3d4da13be70b15b1054, type: 3}
+  m_Name: PigSpineSO
+  m_EditorClassIdentifier: 
+  Id: 0
+  Prefab: {fileID: 7684628936346685372, guid: 9ca9a5afd69f24447a5e4fe4156fe9f5, type: 3}

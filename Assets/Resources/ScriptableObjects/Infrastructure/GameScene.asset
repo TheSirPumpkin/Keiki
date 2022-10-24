@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef38eaf7584a0e54ca3721494efffbb8, type: 3}
+  m_Name: GameScene
+  m_EditorClassIdentifier: 
+  LevelToLoad: 2
+  Icons:
+    list:
+    - Key: {fileID: 11400000, guid: 00db04b68b0972848ab252b3c70b587f, type: 2}
+      Value:
+        ParentName: RightLayput
+        Id: 1
+    - Key: {fileID: 11400000, guid: ff87a711bf9ac914ea6c6929794cf8fb, type: 2}
+      Value:
+        ParentName: RightLayput
+        Id: 4
+    - Key: {fileID: 11400000, guid: 3f758646827e86543b3a56771bd1f454, type: 2}
+      Value:
+        ParentName: LeftLayout
+        Id: 2
+    - Key: {fileID: 11400000, guid: 98459ce942ad9d143a94d73805b4afc8, type: 2}
+      Value:
+        ParentName: LeftLayout
+        Id: 5
+    - Key: {fileID: 11400000, guid: e46d7d73e5be4fb4fb80e733519e195b, type: 2}
+      Value:
+        ParentName: LeftLayout
+        Id: 3
+    - Key: {fileID: 11400000, guid: 7aa89f56280affb46a40ae47218fa27b, type: 2}
+      Value:
+        ParentName: RightLayput
+        Id: 0
+    keyCollision: 0
+  Animals:
+    list:
+    - Key: {fileID: 11400000, guid: 273988cbe854cd743a90cc9f9e2050c3, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 1
+    - Key: {fileID: 11400000, guid: aeb729aee70bbfa4a87f643c97b2a4d8, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 4
+    - Key: {fileID: 11400000, guid: d2bc135a34850b048bc23b833a1c0fee, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 2
+    - Key: {fileID: 11400000, guid: 4270a9dfbd06c3c41856469d0b17406f, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 5
+    - Key: {fileID: 11400000, guid: c4efa45c3ed3684478ea3d033a15cb95, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 3
+    - Key: {fileID: 11400000, guid: b3e06638f232dcc4492da51005d7976a, type: 2}
+      Value:
+        ParentName: SpineParent
+        Id: 0
+    keyCollision: 0
+  Buttons:
+    list:
+    - Key: {fileID: 4289464155289425694, guid: 82c065053568a4c4e8ad7af9c2e421fe, type: 3}
+      Value: MenuButtonParent
+    keyCollision: 0
